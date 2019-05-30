@@ -1,0 +1,472 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>中海网农</title>
+
+    <link rel="stylesheet" type="text/css" href="css/vendor.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    
+
+<!--成功案例文字轮播-->
+<link href="css/slide.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+	/*成功案例*/
+	.focus_body .box{
+		margin: 30px auto;
+		font-size: 16px;
+	}
+	.focus_body .box a{
+		color: #FFF;
+	}
+	.focus_body .box a h4{
+		/*margin: 30px 50px;*/
+		text-align: center;
+		font-size: 20px;
+	}
+	.focus_body .box a p{
+		width: 800px;
+		margin: 0 auto;
+		margin-top: 30px;
+		line-height: 28px;
+		vertical-align: middle;
+		text-align: justify
+	}
+	
+	
+</style>
+
+
+<!--轮播图-->
+<link href="css/poposlides.css" rel="stylesheet" >
+<style>
+.s1 {
+  position: fixed;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  margin: -150px 0 0 -250px;
+  width: 500px;
+  height: 300px;
+  background: rgba(255,255,255,.7);
+  box-shadow: 0 0 15px rgba(0,0,0,.3);
+}
+
+.s1 p {
+  margin: 0;
+  padding: 50px 0 20px 0;
+  font-family: Arial;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.s1 span {
+  display: block;
+  font-family: Arial;
+  font-size: 25px;
+  color: #666;
+  text-align: center;
+}
+
+.s1 a {
+  margin: 20px auto 0 auto;
+  display: block;
+  width: 220px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 25px;
+  background: #f88371;
+}
+
+.s1 a:hover { background: #ed6f5c; }
+ @media (max-width:480px) {
+
+.s1 {
+  margin: -127px 0 0 0;
+  width: 80%;
+  height: 255px;
+  left: 10%;
+}
+
+.s1 p { font-size: 36px; }
+
+.s1 span { font-size: 18px; }
+}
+
+
+
+/*背景颜色*/
+.fp-tableCell{
+	/*background: #f2f2f2;*/
+	background: url(img/bag3.png);
+}
+.header-nav>li>a{
+		width: 100px;
+}
+.ul-page5 li{
+	background: #FFF;
+}
+</style>    
+
+<!--动态效果-->
+<link rel="stylesheet" href="css/animate.css" />
+
+<!--导航下拉-->
+<link rel="stylesheet" type="text/css" href="css/layui.css"/>
+<style type="text/css">
+	.layui-nav .layui-nav-more{
+		top: 38px;
+	}
+	.layui-nav .layui-nav-item .item_a1{
+		padding: 0;
+		padding-top: 28px;
+		color: #606466;
+	}
+	.layui-nav .layui-nav-item a:hover{
+		color: #0089c9;
+	}
+	.layui-nav{
+		background-color: #FFF;
+	}
+	.layui-nav-bar{
+		display: none;
+	}
+	.header{
+		overflow:  initial;
+	}
+</style>
+<!--文字慢慢显示-->
+<!--<link href="css/reveal-it.css" rel="stylesheet" type="text/css" />-->
+
+
+
+
+
+</head>
+<body>
+	
+    <div class="header">
+        <div class="mmw cf">
+            <h2 class="header_h2 fl cf">
+            	<a href="index.html"><img src="img/logo1.png" alt=""/></a>
+            </h2>
+            <ul class="header-nav fr layui-nav">
+                <li data-menuanchor="page1"><a href="index.html">首页</a></li>
+                <!--<li data-menuanchor="page2"><a href="#page2">公司简介</a></li>-->
+                <!--<li data-menuanchor="page3"><a href="#page3">领导关怀</a></li>-->
+                <li data-menuanchor="page2"><a href="关于我们.html">公司简介</a></li>
+                <li data-menuanchor="page3"><a href="领导关怀列表.html">领导关怀</a></li>
+                <li data-menuanchor="page4"><a href="#page4">六大业务</a></li>
+                <li data-menuanchor="page5"><a href="#page5">成功案例</a></li>
+                <li data-menuanchor="page6"><a href="#page6">合作伙伴</a></li>
+                <li class="layui-nav-item">
+				    <a href="javascript:;" class="item_a1">新闻资讯</a>
+				    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+				      <dd><a href="">移动模块</a></dd>
+				      <dd><a href="">后台模版</a></dd>
+				      <dd><a href="">电商平台</a></dd>
+				    </dl>
+			    </li>
+                <!--<li data-menuanchor="page8"></li>-->
+            </ul>
+        </div>
+    </div>
+    
+    
+    
+    <div id="dowebok">
+        <div data-anchor="page1" class="section fp-auto-height">
+        	<div class="page1-slides">
+	            <div class="slides-box">
+				    <ul class="slides">
+					    <li style="background: url(img/slider1.jpg) center;"></li>
+					    <li style="background: url(img/slider2.jpg) center;"></li>
+					    <li style="background: url(img/slider3.jpg) center;"></li>
+					    <li style="background: url(img/slider4.jpg) center;"></li>
+				    </ul>
+				</div>
+			</div>
+			
+        </div>
+        
+        <div data-anchor="page2" class="section page1">
+            <div class="mmw" >
+                <h2 class="intro-h2">
+                	<img src="img/page1-top.png" alt=""/>
+                </h2>
+                <ul class="page1-list cf ">
+                    <li class="intro-li1">
+                        <img src="img/gongsijianjie.png" alt=""/>
+                    </li>
+                    <li class="intro-li2 ">
+                        <h4>中海网农</h4>
+                        <p class="li2-p1">海南中海网农科技有限公司于2015年5月15日成立。中海网农是集农村（智慧）政务、智慧农业、电商运营、品牌农业、智慧旅游和农村金融等业务为一体的中国互联网农业小镇综合运营商，公司锁定以互联网+农业+旅游为经营战略,以现代农业建设为基础，通过搭建互联网电子商务平台，推动物联网、农业示范基地、休闲农业等产业融合发展。</p>
+                       <a href="关于我们.html"> <p class="li2-p2">查看更多介绍</p></a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+
+        <div data-anchor="page3" class="section page2 ">
+            <div class="mmw">
+                <h2 class="intro-h2"><img src="img/page2-top.png" alt=""/></h2>
+               
+                <div id="news" class="owl-carousel">
+                    <div class="news-item page2_news">
+                        <img src="img/page2-news1.png" alt="">
+                        <strong>海口市秀英区互联网农业协会党员大会召开...</strong>
+                        <span>发布时间：2016-06-02</span>
+                        <p>3月8日下午，海口市秀英区互联网农业协会党员大会在石山互联网农业小镇青创中心召开。此次会议由协会会长肖强同志主持，秀英区委常委、石山镇委书记胡余亨、石山镇副镇长胡炜彬、石山镇委委员分管组织办主任黄庆容等区、镇领导出席选举大会，参加会议的还有协会党员叶锋同志、陈强同志。</p>
+                        <a href="领导关怀.html" >查看详情...</a>
+                    </div>
+                    <div class="news-item">
+                        <img src="img/page2-news2.png">
+                        <strong>省民政厅苗延红厅长带队到我区石山镇调研...</strong>
+                        <span>发布时间：2016-07-26</span>
+                        <p>3月14日下午，省民政厅苗延红厅长带队来到石山镇开展调研工作，省民政厅范高净副厅长、市民政局淡利锋局长、林榕明副局长、秀英区李铭副区长及区民政局、石山镇等单位负责人陪同调研。</p>
+                        <a href="领导关怀.html" >查看详情...</a>
+                    </div>
+                    <div class="news-item">
+                        <img src="img/page2-news3.png">
+                        <strong>秀英区首家民宿协会落户石山互联网农业小镇</strong>
+                        <span>发布时间：2016-06-02</span>
+                        <p> 3月7日，海口秀英区首家民宿协会、民宿培训中心在石山互联网运营中心广场正式揭牌成立，对于加快民宿产业发展、旅游产品供给侧改革，强化民宿规范化管理，提高民宿发展品质、从业人员素质，强化行业人员管理具有重要意义。</p>
+                        <a href="领导关怀.html" >查看详情...</a>
+                    </div>
+                   <div class="news-item">
+                        <img src="img/page2-news1.png">
+                        <strong>海口市秀英区互联网农业协会党员大会召开...</strong>
+                        <span>发布时间：2016-06-02</span>
+                        <p>3月8日下午，海口市秀英区互联网农业协会党员大会在石山互联网农业小镇青创中心召开。此次会议由协会会长肖强同志主持，秀英区委常委、石山镇委书记胡余亨、石山镇副镇长胡炜彬、石山镇委委员分管组织办主任黄庆容等区、镇领导出席选举大会，参加会议的还有协会党员叶锋同志、陈强同志。</p>
+                        <a href="领导关怀.html" >查看详情...</a>
+                    </div>
+                    <div class="news-item">
+                        <img src="img/page2-news2.png">
+                        <strong>省民政厅苗延红厅长带队到我区石山镇调研...</strong>
+                        <span>发布时间：2016-07-26</span>
+                        <p>3月14日下午，省民政厅苗延红厅长带队来到石山镇开展调研工作，省民政厅范高净副厅长、市民政局淡利锋局长、林榕明副局长、秀英区李铭副区长及区民政局、石山镇等单位负责人陪同调研。</p>
+                        <a href="领导关怀.html" >查看详情...</a>
+                    </div>
+                    <div class="news-item">
+                        <img src="img/page2-news3.png">
+                        <strong>秀英区首家民宿协会落户石山互联网农业小镇</strong>
+                        <span>发布时间：2016-06-02</span>
+                        <p> 3月7日，海口秀英区首家民宿协会、民宿培训中心在石山互联网运营中心广场正式揭牌成立，对于加快民宿产业发展、旅游产品供给侧改革，强化民宿规范化管理，提高民宿发展品质、从业人员素质，强化行业人员管理具有重要意义。</p>
+                        <a href="领导关怀.html" >查看详情...</a>
+                    </div>
+                     <div class="news-item">
+                        <img src="img/page2-news1.png">
+                        <strong>秀英区首家民宿协会落户石山互联网农业小镇</strong>
+                        <span>发布时间：2016-06-02</span>
+                        <p> 3月7日，海口秀英区首家民宿协会、民宿培训中心在石山互联网运营中心广场正式揭牌成立，对于加快民宿产业发展、旅游产品供给侧改革，强化民宿规范化管理，提高民宿发展品质、从业人员素质，强化行业人员管理具有重要意义。</p>
+                        <a href="领导关怀.html">查看详情...</a>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+       
+       <div data-anchor="page4" class="section page3 ">
+        	<div class="mmw">
+           		<h2 class="intro-h2"><img src="img/page3-top.png" alt=""/></h2>
+                <ul class="business">
+                	<li class="page3_select">
+                		<img src="img/page3-icon7.png" alt=""/>
+                		<h4>智慧农业</h4>
+                		<p>Wisdom Agricultire</p>
+                	</li>
+                	<li>
+                		<img src="img/page3-icon8.png" alt=""/>
+                		<h4>电商平台</h4>
+                		<p>Electric Business Platform</p>
+                	</li>
+                	<li class="li3-business">
+                		<img src="img/page3-icon9.png" alt=""/>
+                		<h4>品牌农业</h4>
+                		<p>Brand Agriculture</p>
+                	</li>
+                	<li>
+                		<img src="img/page3-icon10.png" alt=""/>
+                		<h4>旅游服务</h4>
+                		<p>Tourlsm Services</p>
+                	</li>
+                	<li>
+                		<img src="img/page3-icon11.png" alt=""/>
+                		<h4>农村金融</h4>
+                		<p>Rural Financiai</p>
+                	</li>
+                	<li class="li6-business">
+                		<img src="img/page3-icon12.png" alt=""/>
+                		<h4>政务管理</h4>
+                		<p>Administrative Management</p>
+                	</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div data-anchor="page5" class="section page4">
+        	<div class="page4-img">
+        		<img src="img/page4-bag.jpg" alt="" id="page4_img"/>
+        		 <script>
+        		 	var widt = window.screen.width;
+        		 	var widt2 = widt +'px';
+        		 	var heig = window.screen.height;
+        		 	var heig2 = heig +'px';
+        		 	document.getElementById("page4_img").style.width = widt2;
+        		 	document.getElementById("page4_img").style.height = heig2;
+        		 </script>
+        	</div>
+        		<div class="intro-page4" style="position: relative;">
+          			<img src="img/page4-top.png" alt=""/>
+          		</div>
+        	<div class="mmw " >
+				<div class="focus_body">
+				  	<div class="scroll">
+				      <a id="slideLeftBtn" class="arr_left" title="点击查看上一张图">左移动</a>
+				      <a id="slideRightBtn" class="arr_right" title="点击查看下一张图">右移动</a>
+					    <div class="scroll_cont" id="slideContent"> 
+					      <div class="box">
+				            	<a href="#">
+				            		<h4>1石山互联网农业小镇</h4>
+				                	<p>石山镇位于海口市秀英区西南部，距海口市行政中心11km，美兰国际机场36km。石山互联网小镇采用“1+2+N”的互联网农业小镇新模式：“1”是指搭建一个互联网农业综合运行平台，“2”是指运营管控中心和大数据中心两个中心，“N”是指参与互联网农业小镇的企业、机构、组织以及具有生产运营能力的农户等若干个应用单元。根据该模式，稳步推进互联网平台建设工作。石山互联网小镇因地制宜发展火山特色农业，采用“公司+农户”模式，建设火山石斛、火山壅羊、火山荔枝等物联网产业园，大力发展永兴荔枝、黄皮、火山石斛、石山黑豆、石山壅羊等火山特色产业，实现了农民的大幅增收。
+				               		 </p>
+				            	</a>
+					      </div>
+					      
+					      <div class="box">
+					        	<a href="#">
+				            		<h4>2石山互联网农业小镇</h4>
+				                	<p>石山镇位于海口市秀英区西南部，距海口市行政中心11km，美兰国际机场36km。石山互联网小镇采用“1+2+N”的互联网农业小镇新模式：“1”是指搭建一个互联网农业综合运行平台，“2”是指运营管控中心和大数据中心两个中心，“N”是指参与互联网农业小镇的企业、机构、组织以及具有生产运营能力的农户等若干个应用单元。根据该模式，稳步推进互联网平台建设工作。石山互联网小镇因地制宜发展火山特色农业，采用“公司+农户”模式，建设火山石斛、火山壅羊、火山荔枝等物联网产业园，大力发展永兴荔枝、黄皮、火山石斛、石山黑豆、石山壅羊等火山特色产业，实现了农民的大幅增收。
+				               		 </p>
+				            	</a>
+					      </div>
+					      
+					      <div class="box">
+					      		<a href="#">
+				            		<h4>3石山互联网农业小镇</h4>
+				                	<p>石山镇位于海口市秀英区西南部，距海口市行政中心11km，美兰国际机场36km。石山互联网小镇采用“1+2+N”的互联网农业小镇新模式：“1”是指搭建一个互联网农业综合运行平台，“2”是指运营管控中心和大数据中心两个中心，“N”是指参与互联网农业小镇的企业、机构、组织以及具有生产运营能力的农户等若干个应用单元。根据该模式，稳步推进互联网平台建设工作。石山互联网小镇因地制宜发展火山特色农业，采用“公司+农户”模式，建设火山石斛、火山壅羊、火山荔枝等物联网产业园，大力发展永兴荔枝、黄皮、火山石斛、石山黑豆、石山壅羊等火山特色产业，实现了农民的大幅增收。
+				               		 </p>
+				            	</a>
+					        
+					      </div>
+					    </div>
+				    </div>
+				</div>  
+                 
+            </div>
+            
+        </div>
+    
+   		
+        <div data-anchor="page6" class="section page5">
+            <div class="mmw">
+                	<h2 class="intro-h2"><img src="img/page5-top.png"/></h2>
+                	<!--<h3 class="intro-h3 page5-h3"><span class="h3-span1"></span>Leadership concern<span class="h3-span2"></span></h3>-->
+                	<ul class="ul-page5 cf">
+                		<li><img src="img/page5-icon13.png" style="height:133px ; width: 133px; margin-top: 8px;" alt=""/></li>
+                		<li><img src="img/page5-icon14.png" style="height:80px ; width: 180px; margin-top: 35px;" alt=""/></li>
+                		<li><img src="img/page5-icon15.png" style="height:53px ; width: 268px; margin-top: 48px;" alt=""/></li>
+                		<li><img src="img/page5-icon16.png" style="height:33px ; width: 283px; margin-top: 58px;" alt=""/></li>
+                		<li><img src="img/page5-icon5.png" style="height:107px ; width: 219px; margin-top: 21px;" alt=""/></li>
+                		<li><img src="img/page5-icon6.png" style="height:139px ; width: 109px; margin-top: 5px;" alt=""/></li>
+                		<li><img src="img/page5-icon7.png" style="height:116px ; width: 219px; margin-top: 17px;" alt=""/></li>
+                		<li><img src="img/page5-icon8.png" style="height:127px ; width: 146px; margin-top: 10px;" alt=""/></li>
+                		<li><img src="img/page5-icon9.png" style="height:121px ; width: 121px; margin-top: 14px;" alt=""/></li>
+                		<li><img src="img/page5-icon10.png" style="height:126px ; width: 162px; margin-top: 12px;" alt=""/></li>
+                		<li><img src="img/page5-icon11.png" style="height:77px ; width: 205px; margin-top: 36px;" alt=""/></li>
+                		<li><img src="img/page5-icon12.png" style="height:116px ; width: 160px; margin-top: 17px;" alt=""/></li>
+                	</ul>
+            </div>
+        </div>
+       
+        <!--<div data-anchor="page7" class="section page6">
+       	
+       	</div>-->
+        <div data-anchor="page7" class="section page6 fp-auto-height">
+           
+            <div class="footer-bottom tc">
+           		<div class="mmw cf">
+           			<div class="fl">
+           				<p>Copyright © 2015-2017 </p>
+           				<p>海南中海网农科技有限公司版权所有</p>
+           				<p>琼ICP备16005908号  </p>
+           			</div>
+           			<div class="fr">
+           				<ul class="cf">
+           					<li class="page6-li1">
+           						<a href="关于我们.html"><img src="img/page6-icon4.png" style="width: 53px; height: 31px; margin-top: 10px;" alt=""/>
+           						<p>关于我们</p></a>
+           					</li>
+           					<li class="page6-li2">
+           						<a href="团队招募.html"><img src="img/page6-icon5.png" style="width:44px; height: 42px;" alt=""/>
+           						<p>团队招募</p></a>
+           					</li>
+           					<li class="page6-li3">
+           						<a href="联系我们.html"><img src="img/page6-icon6.png" style="width: 44px; height: 44px;" alt=""/>
+           						<p>联系我们</p></a>
+           					</li>
+           				</ul>
+           			</div>
+           		</div>
+            </div>
+        </div>
+        
+    </div>
+
+
+<script src="js/jQuery.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+<script src="js/jquery.velocity.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/common.js"></script>
+
+
+<!--轮播图-->
+<script src="js/poposlides.js"></script> 
+<script>
+	$(".slides").poposlides();
+</script>	
+
+
+<!--导航下拉-->
+<script type="text/javascript" src="js/layui.all.js"></script>
+<script>
+//注意：导航 依赖 element 模块，否则无法进行功能性操作
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+<!--文字轮播-->
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+			$(".focus_body").hover(function(){$("#slideLeftBtn,#slideRightBtn").show();},function(){$("#slideLeftBtn,#slideRightBtn").hide();});
+			$(".focus_body .box .btn").click(function(){$(this).toggleClass("fold").prev().find(".scroll_detail").toggle() });
+			$(".focus_body").slide({ 
+				mainCell:"#slideContent",
+				targetCell:"#slideContent .title",
+				titCell:"#slideNum",
+				prevCell:"#slideLeftBtn",
+				nextCell:"#slideRightBtn",
+				effect:"left",
+				titOnClassName:"selected",
+				autoPlay:true,
+				delayTime:600,
+				easing:"easeInOutCirc",
+				autoPage:"<span></span>"
+			})
+	})
+</script>
+</body>
+
+</html>

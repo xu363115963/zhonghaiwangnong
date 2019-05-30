@@ -1,0 +1,138 @@
+修改背景颜色样式
+.fp-tableCell{
+	/*background: #f2f2f2;*/
+	background: url(img/bag3.png);
+}
+
+导航加一栏重新设置宽
+.header-nav>li>a{
+		width: 100px;
+}
+
+替换logo
+<img src="img/logo1.png" alt=""/>
+
+替换公司介绍图片
+ <img src="img/gongsijianjie.png" alt=""/>
+
+合作伙伴
+前4个替换代码
+<img src="img/page5-icon13.png" style="height:133px ; width: 133px; margin-top: 8px;" alt=""/></li>
+                		<li><img src="img/page5-icon14.png" style="height:80px ; width: 180px; margin-top: 35px;" alt=""/></li>
+                		<li><img src="img/page5-icon15.png" style="height:53px ; width: 268px; margin-top: 48px;" alt=""/></li>
+                		<li><img src="img/page5-icon16.png" style="height:33px ; width: 283px; margin-top: 58px;" alt=""/></li>
+
+.ul-page5 li{
+	background: #FFF;
+}
+
+六大业务替换图片
+<img src="img/page3-icon7.png" alt=""/>
+<img src="img/page3-icon8.png" alt=""/>
+<img src="img/page3-icon9.png" alt=""/>
+<img src="img/page3-icon10.png" alt=""/>
+<img src="img/page3-icon11.png" alt=""/>
+<img src="img/page3-icon12.png" alt=""/>
+
+底部图片替换
+<!--成功案例文字轮播-->
+<link rel="stylesheet" href="css/css.css"/>
+<script type="text/javascript" src="js/js.js"></script>
+<img src="img/page6-icon4.png" style="width: 53px; height: 31px; margin-top: 10px;" alt=""/>
+<img src="img/page6-icon5.png" style="width:44px; height: 42px;" alt=""/>
+<img src="img/page6-icon6.png" style="width: 44px; height: 44px;" alt=""/>
+
+成功案例轮播
+<link href="css/slide.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+	/*成功案例*/
+	.focus_body .box{
+		margin: 30px auto;
+		font-size: 16px;
+		
+	}
+	.focus_body .box a{
+		color: #FFF;
+	}
+	.focus_body .box a h4{
+		/*margin: 30px 50px;*/
+		text-align: center;
+		font-size: 20px;
+	}
+	.focus_body .box a p{
+		width: 800px;
+		margin: 0 auto;
+		margin-top: 30px;
+		line-height: 28px;
+		vertical-align: middle;
+		text-align: justify
+	}
+</style>
+
+<div class="mmw " >
+				<div class="focus_body">
+				  	<div class="scroll">
+				      <a id="slideLeftBtn" class="arr_left" title="点击查看上一张图">左移动</a>
+				      <a id="slideRightBtn" class="arr_right" title="点击查看下一张图">右移动</a>
+					    <div class="scroll_cont" id="slideContent"> 
+					      <div class="box">
+				            	<a href="#">
+				            		<h4>1石山互联网农业小镇</h4>
+				                	<p>石山镇位于海口市秀英区西南部，距海口市行政中心11km，美兰国际机场36km。石山互联网小镇采用“1+2+N”的互联网农业小镇新模式：“1”是指搭建一个互联网农业综合运行平台，“2”是指运营管控中心和大数据中心两个中心，“N”是指参与互联网农业小镇的企业、机构、组织以及具有生产运营能力的农户等若干个应用单元。根据该模式，稳步推进互联网平台建设工作。石山互联网小镇因地制宜发展火山特色农业，采用“公司+农户”模式，建设火山石斛、火山壅羊、火山荔枝等物联网产业园，大力发展永兴荔枝、黄皮、火山石斛、石山黑豆、石山壅羊等火山特色产业，实现了农民的大幅增收。
+				               		 </p>
+				            	</a>
+					      </div>
+					      
+					      <div class="box">
+					        	<a href="#">
+				            		<h4>2石山互联网农业小镇</h4>
+				                	<p>石山镇位于海口市秀英区西南部，距海口市行政中心11km，美兰国际机场36km。石山互联网小镇采用“1+2+N”的互联网农业小镇新模式：“1”是指搭建一个互联网农业综合运行平台，“2”是指运营管控中心和大数据中心两个中心，“N”是指参与互联网农业小镇的企业、机构、组织以及具有生产运营能力的农户等若干个应用单元。根据该模式，稳步推进互联网平台建设工作。石山互联网小镇因地制宜发展火山特色农业，采用“公司+农户”模式，建设火山石斛、火山壅羊、火山荔枝等物联网产业园，大力发展永兴荔枝、黄皮、火山石斛、石山黑豆、石山壅羊等火山特色产业，实现了农民的大幅增收。
+				               		 </p>
+				            	</a>
+					      </div>
+					      
+					      <div class="box">
+					      		<a href="#">
+				            		<h4>3石山互联网农业小镇</h4>
+				                	<p>石山镇位于海口市秀英区西南部，距海口市行政中心11km，美兰国际机场36km。石山互联网小镇采用“1+2+N”的互联网农业小镇新模式：“1”是指搭建一个互联网农业综合运行平台，“2”是指运营管控中心和大数据中心两个中心，“N”是指参与互联网农业小镇的企业、机构、组织以及具有生产运营能力的农户等若干个应用单元。根据该模式，稳步推进互联网平台建设工作。石山互联网小镇因地制宜发展火山特色农业，采用“公司+农户”模式，建设火山石斛、火山壅羊、火山荔枝等物联网产业园，大力发展永兴荔枝、黄皮、火山石斛、石山黑豆、石山壅羊等火山特色产业，实现了农民的大幅增收。
+				               		 </p>
+				            	</a>
+					        
+					      </div>
+					    </div>
+				    </div>
+				</div>  
+                 
+            </div>
+
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+	$(function(){
+			$(".focus_body").hover(function(){$("#slideLeftBtn,#slideRightBtn").show();},function(){$("#slideLeftBtn,#slideRightBtn").hide();});
+			$(".focus_body .box .btn").click(function(){$(this).toggleClass("fold").prev().find(".scroll_detail").toggle() });
+			$(".focus_body").slide({ 
+				mainCell:"#slideContent",
+				targetCell:"#slideContent .title",
+				titCell:"#slideNum",
+				prevCell:"#slideLeftBtn",
+				nextCell:"#slideRightBtn",
+				effect:"left",
+				titOnClassName:"selected",
+				autoPlay:true,
+				delayTime:600,
+				easing:"easeInOutCirc",
+				autoPage:"<span></span>"
+			})
+		})
+</script>
+----------------------------------------------------------------------------
+
+导航下拉
+<link rel="stylesheet" type="text/css" href="css/layui.css"/>
+<script type="text/javascript" src="js/layui.all.js"></script>
+<script>
+//注意：导航 依赖 element 模块，否则无法进行功能性操作
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>

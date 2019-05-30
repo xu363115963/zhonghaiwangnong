@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			ul, li{
+				font-style: normal;
+			}
+			ul{
+			    text-align: center;
+			    background: #edf6ff;
+			    padding: 10px 0;
+			    border: 1px solid #c5c2c2;
+			    color: #666;
+
+			}
+			li{
+				list-style: none;
+				padding: 0 20px;
+				height: 30px;
+				line-height: 30px;
+				cursor: pointer;
+			}
+			.xuanzhong{
+				background: #e68566;
+    			color: #FFF;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="id_ul">
+			<li class="xuanzhong">示范基地</li>
+			<li>示范项目</li>
+			<li>村级服务</li>
+			<li>党建地图</li>
+			<li>党建地图</li>
+			<li>党建地图</li>
+			<li>党建地图地图地图</li>
+			<li>党建地图</li>
+		</ul>
+		<script src="js/JQuery.js"></script>
+		<script type="text/javascript">
+			$('#id_ul li').click(function(){
+//				alert($(this).index());
+				$(this).addClass('xuanzhong').siblings().removeClass('xuanzhong');
+				
+			})
+			
+		</script>
+	</body>
+	
+</html>
